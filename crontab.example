@@ -1,0 +1,3 @@
+DDNS_DIR=/home/pi/Apps/namecheap-ddns-update
+0 */2 * * * date >> ${DDNS_DIR}/cron.log && ${DDNS_DIR}/namecheap-ddns-update 2>> ${DDNS_DIR}/cron.log
+
